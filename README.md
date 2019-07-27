@@ -3,6 +3,7 @@ A simple script to automate some of the setup for Netflix and Amazon Prime Video
 
 Usage
 From terminal enter the following command.
+
 curl -sSL https://raw.githubusercontent.com/oss001/KodiStreaming/master/setup.sh | sudo bash
 
 Once complete, install the addons via Settings -> Addon Browser -> Install from Zip file.
