@@ -1,13 +1,13 @@
 #!/bin/bash
 echo "Starting setup, this will only work on Kodi V18 or greater..."
 echo "Loading dependencies..."
-apt-get install python-pip python-crypto build-essential -y > /dev/null
-apt-get install python-all-dev python-setuptools python-wheel -y > /dev/null
-apt-get install python-crypto-dbg python-crypto-doc python-pip-whl -y > /dev/null
+sudo apt-get install python-pip python-crypto build-essential -y > /dev/null
+sudo apt-get install python-all-dev python-setuptools python-wheel -y > /dev/null
+sudo apt-get install python-crypto-dbg python-crypto-doc python-pip-whl -y > /dev/null
 echo "Complete."
 echo "Setting up Pycryptodome..."
 pip install pycryptodomex > /dev/null
-ln -s /usr/lib/python2.7/dist-packages/Crypto /usr/lib/python2.7/dist-packages/Cryptodome
+sudo ln -s /usr/lib/python2.7/dist-packages/Crypto /usr/lib/python2.7/dist-packages/Cryptodome
 echo "Complete."
 echo "Getting Netflix Repository..."
 mkdir ~/addons
@@ -29,4 +29,4 @@ echo "2"
 sleep 1
 echo "1"
 sleep 1
-reboot
+sudo reboot
