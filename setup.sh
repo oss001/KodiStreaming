@@ -17,11 +17,11 @@ echo " "
 echo "Getting Netflix Repository..."
 mkdir /addons
 cd /addons
-wget https://github.com/castagnait/repository.castagnait/raw/master/repository.castagnait-1.0.0.zip
+wget https://github.com/castagnait/repository.castagnait/raw/master/repository.castagnait-1.0.1.zip
 echo "Complete."
 echo " "
 echo "Getting Amazon Reporitory..."
-wget https://github.com/Sandmann79/xbmc/releases/download/v1.0.2/repository.sandmann79.plugins-1.0.2.zip
+wget https://github.com/Sandmann79/xbmc/releases/download/Repository/repository.sandmann79.plugins-1.0.3-leia.zip
 echo " "
 echo "Complete."
 echo " "
