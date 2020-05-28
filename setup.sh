@@ -4,7 +4,7 @@ echo "Starting setup, this will only work on Kodi V18 or greater..."
 sleep 5
 echo " "
 echo "Installing dependencies..."
-apt-get install python-pip python-crypto build-essential -y > /dev/null
+apt-get install python-pip python-crypto build-essential libnss3-dev -y > /dev/null
 apt-get install python-all-dev python-setuptools python-wheel -y > /dev/null
 apt-get install python-crypto-dbg python-crypto-doc python-pip-whl -y > /dev/null
 echo "Complete."
